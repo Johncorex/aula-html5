@@ -1,5 +1,5 @@
 body {
-    background: #f7f7f7;
+    background-image:url(img/background.jpg);
 }
 
 .photo {
@@ -8,7 +8,7 @@ body {
 }
 
 #title, .subtitle, .post_title {
-    color: #505050
+    color: #fff
 
 
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .post {
-    background: #fff;
+    background: #505050;
     padding: 15px;
     border: 3px solid #505050;
     margin-bottom: 15px;
@@ -31,8 +31,22 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 .post_image {
     margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.mailto {
+    color: #fff;
+}
+
+.linkedin {
+    color: #fff;
+}
+
+.github {
+    color: #fff;
 }
